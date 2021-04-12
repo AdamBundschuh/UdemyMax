@@ -44,4 +44,4 @@ greetUser('Adam');
 task3Element.addEventListener('click', greet);
 
 const combinedString = combine('Hi', 'there', '!');
-alert(combine);
+alert(combinedString);
