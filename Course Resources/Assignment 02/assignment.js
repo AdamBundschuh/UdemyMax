@@ -20,9 +20,12 @@ hello();
 sayMyName('Adam');
 combine('Adam ','is ','awesome!');
 
-
-
+// alternate
+// const combinedText = combine('Adam ','is ','awesome!');
+// alert(combinedText);
+// -------------------------
 // Example explained
+
 const task3Element = document.getElementById('task-3');
 
 function greet() {
