@@ -29,8 +29,22 @@ function writeToLog(
   console.log(logEntries);
 }
 
+
+
 function calculateResult (calculationType) {
+  
   const enteredNumber = getUserNumberInput();
+
+  if (
+    calculationType !== 'ADD' &&
+    calculationType !== 'SUBTRACT' &&
+    calculationType !== 'MULTIPLY' &&
+    calculationType !== 'DIVIDE' ||
+    !enteredNumber // falsy check for "if zero"
+  ) {
+    return;
+  }
+ 
   const initialResult = currentResult;
   let mathOperator;
   if (calculationType === 'ADD') {

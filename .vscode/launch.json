@@ -8,7 +8,7 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "file:///C:/Users/Adam/Documents/Coding/UdemyMax/Course%20Resources/Section%2004%20(Control%20Structures)/The%20Unconventional%20Calculator/index.html",
+            "url": "file:///C:/Users/Adam/Documents/Coding/UdemyMax/Course%20Resources/Section%2004%20(Control%20Structures)/Monster%20Hunter/index.html",
             "webRoot": "${workspaceFolder}"
         }
     ]
