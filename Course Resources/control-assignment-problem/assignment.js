@@ -1,7 +1,7 @@
 // array length using arrayName.length
 
-const randomNumber = Math.random(); // produces random number between 0 (including) and 1 (excluding)
-const randomNumberTwo = Math.random(); // produces random number between 0 (including) and 1 (excluding)
+const randomNumber = Math.random();      // produces random number between 0 (including) and 1 (excluding)
+const randomNumberTwo = Math.random();  // produces random number between 0 (including) and 1 (excluding)
 
 if (randomNumber > 0.7) {
     console.log("Greater than 0.7");
